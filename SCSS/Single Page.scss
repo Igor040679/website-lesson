@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap");
+.main__single__slider{
+    height: 777px;
+    border: 1px solid #eaeaea;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.main__single__slider{
+    a{
+        width: 47px;
+        height: 47px;
+        background-color: #d8d8d8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Font Awesome";
+        font-weight: 400;
+        transition: 0.5s;
+        
+    }
+}
+.main__single__slider a:hover{
+    opacity: 0.5;
+    background-color: $primary-color;
+}
+.main__singl__text{
+    width: 640px;
+}
+.main__slider__container{
+    background-size: cover;
+    position: relative;
+    top:-16px;
+}
+.main__single__content{
+    height: 1289px;
+   
+}
+.main__singl__desc{
+    display: flex;
+    justify-content: center;
+    height: 730px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    position: relative;
+    top:-86px;
+}
+
+
+.main__block__text{
+   width: 618px;
+    height: 60px;
+    color: #5e5e5e;
+    font-family: Lato-Light;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    
+}
+.main__text__collection{
+    margin: 0;
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 73px;
+}
+.main__composition{
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    padding-left: 48px;
+    
+}
+.main__single__top{
+    text-align: center;
+}
+.main__moschino__text{
+    color: #4d4d4d;
+    font-family: "Lato-Black";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: Regular;
+    text-transform: uppercase;
+}   
+.text__DESIGNER{
+    margin: 0;
+    color: #b9b9b9;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.description{
+  padding-right: 44px;
+    color: #2f2f2f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.price{
+    margin: 0;
+    padding-top: 37px;
+    padding-bottom: 17px;
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.main__border__line{
+    width: 640px;
+    border-bottom:  1px solid #ececec;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.bottom__form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* align-content: baseline; */
+    justify-content: space-evenly;
+    padding-top: 63px;
+}
+.form__choose{
+    padding-bottom: 16px;
+    color: #2f2f2f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+    input[list="colors"]:focus,
+    textarea[list="colors"]:focus{
+    text-transform: capitalize;
+    color: #222222;
+    opacity: 1.5;
+    border: none;
+    outline: none;
+}
+    input[list="size"]:focus,
+    textarea[list="size"]:focus{
+    text-transform: capitalize;
+    color: #222222;
+    opacity: 1.5;
+    border: none;
+    outline: none;
+}
+    input[list="quantity"]:focus,
+    textarea[list="quantity"]:focus{
+    text-transform: capitalize;
+    color: #222222;
+    opacity: 1.5;
+    border: none;
+    outline: none;
+}
+.single__placeholder{
+    width: 144px;
+    height: 35px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #bcbcbc;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 28px;
+    
+}
+.main__adress{
+    h3{
+        margin: 0;
+    }
+}
+
+.submit__checkout__single:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.submit__single__checkout{
+    display: flex;
+    justify-content: center;
+    
+}
+.bottom__cart{
+    padding-right: 15px;
+}
+.single__cart {
+    width: 537px;
+    height: 55px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.fetured__items {
+    margin-top: 119px;
+    color: #4d4d4d;
+    font-family: "Lato bold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: regular;
+}
+
+.featured {
+    margin-top: 59px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featured__product__wrapper {
+    position: relative;
+    width: 260px;
+    height: 375px;
+    padding-bottom: 30px;
+    
+}
+.featured__product__wrapper .featured__product {
+    width: inherit;
+    height: 280px;
+    
+}
+.featured__product__wrapper .featured__product > img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    object-position: center;
+}.featured__product__wrapper .featured__product__hover {
+    background-color: #3a3838;
+    opacity: 0.8;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.featured__product__wrapper .featured__product a {
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    outline: 1px solid #ffffff;
+    align-items: center;
+    padding: 8px;
+}
+ .featured__product__wrapper .featured__product a img {
+    padding-right: 8px;
+}
+.featured__product__wrapper:hover {
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16); 
+}
+.featured__product__wrapper:hover .featured__product__hover {
+    display: flex;
+}
+
+.featured__product-desc h3 {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase; }
+
+.featured__product-desc p {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+.block__subscribe{
+    margin-top: 73px;
+}

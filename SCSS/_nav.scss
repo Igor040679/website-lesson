@@ -1,0 +1,43 @@
+ .topNav{
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+.topNav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222222;
+    position: relative;
+    line-height: 3;
+    
+    
+}
+.topNav a:after {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 3px; 
+	background-color: #f16d7f; 
+	content: "";
+    
+	
+}
+.topNav a:hover:after, a:focus:after {
+	width: 100%; 
+   
+}
+.topNav a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+
+.topNav a:not(:last-child){
+    margin-right: 48px;
+}
+

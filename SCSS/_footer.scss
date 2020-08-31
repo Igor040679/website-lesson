@@ -1,0 +1,124 @@
+.footer {
+    height: 460px;
+    display: flex;
+}
+
+.footer__logo {
+    text-transform: uppercase;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    line-height: 50px;
+    margin-right: 37px;
+    color: #222222;
+}
+.footer__logo:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.footer__content {
+    padding-top: 109px;
+    width: 427px;
+    height: 180px;
+}
+
+.content {
+    display: flex;
+    padding-left: 64px;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content__left {
+    color: #898989;
+    font-size: 14px;
+    font-family: Lato-ligth;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+}
+
+.company {
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding-top: 97px;
+}
+
+.company__list {
+    display: flex;
+    color: #898989;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+}
+.company__list:hover{
+    opacity: 0.5;
+}
+
+.footer__content__center {
+    padding-left: 137px;
+}
+
+.footer__content__rigth {
+    padding-left: 92px;
+}
+.footer-background {
+     height: 79px;
+     
+    background-color: #e6e6e6;
+}
+.footer__privacy {
+    display: flex;
+    align-items: center;
+}
+.footer__copyrigth {
+   display: flex;
+    height: inherit;
+    justify-content: space-between;
+}
+
+.privacy {
+    color: #7a7a7a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social__like i {
+    width: 32px;
+    display: inline-flex;
+    height: 32px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social > a:not(:last-child) {
+    margin-right: 15px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #b2b2b2;
+    font-family: "Font Awesome";
+    font-size: 16px;
+    font-weight: 400;
+}
+.social__like i:hover{
+    background-color: #f16d7f;
+}

@@ -1,0 +1,54 @@
+.arrivals{
+    height: 148px;
+    background-color: #f8f3f4;
+    display: flex;
+    align-items: center;
+    
+ }
+.new__arrival{
+    display: flex;
+    justify-content: space-between;
+}
+.arrivals__content{
+   color: #f16d7f;
+font-family: "Lato - Black";
+font-size: 24px;
+font-weight: 400;
+line-height: 20px;
+text-transform: uppercase;
+font-style: regular;
+    
+    h3{
+        margin: 0;
+    }
+}
+
+.arrivals__nav{
+    
+    a {
+text-decoration: none;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-transform: uppercase;
+    }
+}
+
+.home__men__nav:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.new__nav:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.home__men__nav{
+color: #636363;
+font-family: "Lato Light";
+font-weight: 300;
+}
+.new__nav{
+font-family: "Lato - Bold";
+font-weight: 700;
+color: #f16d7f;
+}
